@@ -180,7 +180,7 @@
     height: auto;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     margin-top: 10px;
   }
   .profile-img-smiley-small:hover {
