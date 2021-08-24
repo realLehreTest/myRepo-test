@@ -167,14 +167,14 @@
     display: none;
   }
 
-  .profile-img-smiley {
+  .profile-img-smiley-small {
     position: relative;
     z-index: 2000;
     top: 0;
     left: 0;
     border: 1px solid var(--gray-border);
     background: var(--body-bg);
-    border-radius: 5px;
+    border-radius: 8px;
     width: 100%;
     padding: 8px 8px;
     height: auto;
@@ -183,9 +183,9 @@
     align-items: flex-start;
     margin-top: 10px;
   }
-  .profile-img-smiley:hover {
+  .profile-img-smiley-small:hover {
     padding: 8px 8px;
-    border-radius: 5px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: space-between;

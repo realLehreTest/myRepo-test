@@ -431,6 +431,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+.profile-img-smiley-small {
+  display: none;
+}
 
 .profile-img-smiley:hover {
   padding: 10px 95px 10px 10px;
