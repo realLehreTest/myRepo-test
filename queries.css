@@ -65,7 +65,7 @@
     transition: all 0.5s;
   }
   .header-container.open-header {
-    height: 500px;
+    height: 485px;
   }
 
   .header-left-actions.hide-nav {
@@ -301,6 +301,19 @@
 
   .dashboard svg {
     display: none;
+  }
+
+  .repo-left {
+    width: 80%;
+  }
+
+  .repo-left p {
+    width: 65%;
+  }
+
+  .repo-left .fork {
+    width: 90%;
+    /* white-space: nowrap; */
   }
 }
 
