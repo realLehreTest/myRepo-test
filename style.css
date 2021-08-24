@@ -69,6 +69,10 @@
   color: var(--gray-text-profile-info);
 }
 
+.dark_mode .profile-img-smiley-small .status {
+  color: var(--gray-text-profile-info);
+}
+
 .dark_mode .main-left #edit-profile:hover,
 .dark_mode .right-btn-options:hover,
 .dark_mode .repo-rating:hover {
