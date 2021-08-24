@@ -907,6 +907,7 @@ body {
   fill: var(--gray-btn-options);
   cursor: pointer;
   font-size: 12px;
+  white-space: nowrap;
 }
 .repo-rating:hover {
   background: var(--gray-proper);
