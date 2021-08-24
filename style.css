@@ -904,13 +904,18 @@ body {
   border: 1px var(--gray-border) solid;
   border-radius: 6px;
   color: var(--gray-btn-options);
-  fill: var(--gray-btn-options);
   cursor: pointer;
   font-size: 12px;
   white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
 }
 .repo-rating:hover {
   background: var(--gray-proper);
+}
+.repo-rating svg {
+  margin-right: 5px;
+  fill: var(--gray-very-light);
 }
 
 /* end of main-area */
