@@ -831,7 +831,7 @@ body {
 
 .repo {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 50px;
   padding-bottom: 30px;

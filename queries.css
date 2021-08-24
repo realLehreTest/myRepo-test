@@ -313,7 +313,7 @@
 
   .repo-left .fork {
     width: 90%;
-    /* white-space: nowrap; */
+    white-space: nowrap;
   }
 }
 
