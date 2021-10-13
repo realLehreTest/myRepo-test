@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* overflow-y: hidden; */
 }
 
 :root {
@@ -724,23 +723,25 @@ body {
 .theme-toggle-small .toggle-states {
   background: var(--gray-very-light);
 }
-.theme-toggle i {
-  font-size: 20px;
-  color: white;
-}
-.toggle-states .fa-moon-o {
+.moon {
   display: none;
-  opacity: 0;
+}
+.sun {
+  fill: white;
+}
+.moon,
+.sun {
+  width: 22px;
 }
 .slide .toggle-states {
   left: 51%;
 }
-.slide .toggle-states .fa-moon-o {
+.slide .toggle-states .moon {
   display: initial;
   opacity: 1;
   transition: all 1s linear;
 }
-.slide .toggle-states .fa-sun-o {
+.slide .toggle-states .sun {
   display: none;
 }
 /* end of dashboard */
